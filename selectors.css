@@ -1,0 +1,74 @@
+*{
+    text-align: center;
+}
+
+h1.heading{
+    color: red;
+}
+h2.heading{
+    color: orange;
+}
+.heading{
+    color: green;
+}
+
+#head{
+    color: blue;
+}
+
+a[href = "#"]{
+    font-size: 40px;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a:visited{
+    color: grey;
+}
+
+#lorem:first-line{
+    background: yellow;
+    color: green;
+}
+
+div > p{
+    color: aqua;
+}
+div+p
+{
+    background-color: blueviolet;
+}
+p~ul{
+    background-color: chartreuse;
+}
+p i:first-child 
+{
+
+
+    color: blue;
+}
+p:first-child b {
+    color: green;
+  } 
+  a:active {
+    background-color: yellow;
+  }
+  q:lang(no) {
+    quotes: "~" "~";
+  }
+  a[target] {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: yellow;
+  }
+  a[target=_blank] {
+    background-color: yellow;
+  }
+  [class|=top] {
+    background:violet;
+  }
+  [class*="y"] {
+    background:blueviolet;
+  }
